@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Games - Eclipse Game Repository</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+        }
+        
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        header a {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        header a:hover {
+            text-decoration: underline;
+        }
+        
+        .games-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        
+        .game-card {
+            background: white;
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .game-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0,0,0,0.2);
+        }
+        
+        .game-card h2 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 1.5em;
+        }
+        
+        .game-card p {
+            color: #666;
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+        
+        .game-card a {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+        
+        .game-card a:hover {
+            background: #764ba2;
+        }
+        
+        .info-box {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+        
+        footer {
+            text-align: center;
+            color: white;
+            margin-top: 40px;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎮 E-Games</h1>
+            <p>Game repository for the <a href="https://github.com/xXmizzeryXx/eclipse" target="_blank">Eclipse</a> proxy</p>
+        </header>
+
+        <div class="info-box">
+            <p>This repo contains all games for the Eclipse proxy. The original project directory was too large (2.97GB), so games are now hosted separately for better performance and easier updates.</p>
+        </div>
+
+        <br>
+
+        <div class="games-grid">
+            <div class="game-card">
+                <h2>Time Shooter 2</h2>
+                <p>Time moves only when you move.</p>
+                <a href="games/timeshooter2.html">Play Game</a>
+            </div>
+
+            <div class="game-card">
+                <h2>Slope</h2>
+                <p>Don't let the ball crash.</p>
+                <a href="games/slope.html">Play Game</a>
+            </div>
+
+            <div class="game-card">
+                <h2>Tomb of the Mask</h2>
+                <p>Get the yellow guy through the levels.</p>
+                <a href="games/tomb-of-the-mask.html">Play Game</a>
+            </div>
+
+            <div class="game-card">
+                <h2>Task Force: Eclipse</h2>
+                <p>Strategic shooter and tactics.</p>
+                <a href="games/eclipse.html">Play Game</a>
+            </div>
+
+            <div class="game-card">
+                <h2>Retro Bowl</h2>
+                <p>Football like the 80's.</p>
+                <a href="games/retro-bowl/index.html">Play Game</a>
+            </div>
+
+            <div class="game-card">
+                <h2>Madalin Stunt Cars 3</h2>
+                <p>Do stunts in a cool car.</p>
+                <a href="games/madalin-stunt-cars-3/index.html">Play Game</a>
+            </div>
+
+            <div class="game-card">
+                <h2>Basket Random</h2>
+                <p>Ragdoll basketball fun.</p>
+                <a href="games/basket-random/index.html">Play Game</a>
+            </div>
+
+            <div class="game-card">
+                <h2>Boxing Random</h2>
+                <p>Ragdoll rock-em, sock-em fun.</p>
+                <a href="games/boxing-random/index.html">Play Game</a>
+            </div>
+
+            <div class="game-card">
+                <h2>Superhot</h2>
+                <p>Better version of Time Shooter 2.</p>
+                <a href="games/super-hot/index.html">Play Game</a>
+            </div>
+
+            <div class="game-card">
+                <h2>Five Nights at Freddy's</h2>
+                <p>Survive the night at Freddy's.</p>
+                <a href="games/fnaf1/index.html">Play Game</a>
+            </div>
+
+            <div class="game-card">
+                <h2>Five Nights at Freddy's 2</h2>
+                <p>Discover the origins of Freddy's.</p>
+                <a href="games/2/index.html">Play Game</a>
+            </div>
+
+            <div class="game-card">
+                <h2>Five Nights at Freddy's 3</h2>
+                <p>He always comes back.</p>
+                <a href="games/3/index.html">Play Game</a>
+            </div>
+
+            <div class="game-card">
+                <h2>Five Nights at Freddy's 4</h2>
+                <p>Survive the horrors at home.</p>
+                <a href="games/4/index.html">Play Game</a>
+            </div>
+
+            <div class="game-card">
+                <h2>FNAF: Sister Location</h2>
+                <p>Explore the underground facility.</p>
+                <a href="games/sl/index.html">Play Game</a>
+            </div>
+
+            <div class="game-card">
+                <h2>FNAF: Ultimate Custom Night</h2>
+                <p>Face all animatronics or customize your own night.</p>
+                <a href="games/ucn/index.html">Play Game</a>
+            </div>
+        </div>
+
+        <footer>
+            <p>More games coming soon...</p>
+        </footer>
+    </div>
+</body>
+</html>
